@@ -1,7 +1,6 @@
 import React, {Fragment} from 'react';
 import styles from './Header.module.css';
 import HeaderCartButton from "./HeaderCartButton";
-import {findAllByDisplayValue} from "@testing-library/react";
 import mealsImage from '../../assets/meals.jpg'
 
 function Header(props) {
