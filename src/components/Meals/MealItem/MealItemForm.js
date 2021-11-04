@@ -19,7 +19,7 @@ function MealItemForm(props) {
     };
     return (
         <form className={styles.form} onSubmit={submitHandler}>
-            <Input ref={amountInputRef} label={'Amount'} input={{
+            <Input ref={amountInputRef} label='Amount' input={{
                 type: 'number',
                 id: 'amount_' + props.id,
                 min: '1',
